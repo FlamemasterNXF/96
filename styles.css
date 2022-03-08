@@ -1,0 +1,23 @@
+html{
+    background-color: black;
+}
+.flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.generalTexts{
+    color: white;
+}
+.centeredTexts{
+    color: white;
+    text-align: center;
+}
+.layer{
+    position: absolute;
+}
+#clock{
+    margin-top: 100px;
+    font-size: 100px;
+    color: #009696;
+}
