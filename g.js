@@ -1,5 +1,5 @@
 let g = false
-let countDown = new Date("April 1, 2022, 0:0:0").getTime()
+let countDown = new Date("April 1, 2023, 0:0:0").getTime()
 let time = setInterval(function() {
     let now = new Date().getTime();
     let distance = countDown - now;
@@ -13,7 +13,7 @@ let time = setInterval(function() {
 
     if (distance <= 0) {
         clearInterval(time);
-        document.getElementById("clock").innerHTML = "https://youtu.be/hVMPpzSBfn8";
+        document.getElementById("clock").innerHTML = "???";
         document.getElementById("lowerText").innerHTML = "The day has come";
         g = true
     }
