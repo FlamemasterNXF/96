@@ -13,7 +13,7 @@ let time = setInterval(function() {
 
     if (distance <= 0) {
         clearInterval(time);
-        document.getElementById("clock").innerHTML = "???";
+        document.getElementById("clock").innerHTML = "https://flamemasternxf.github.io/the-grind-2/";
         document.getElementById("lowerText").innerHTML = "The day has come";
         g = true
     }
